@@ -1,4 +1,4 @@
-#每6小时调用一次（周六日不启动）
+#Runs every 10th minute past the 8, 12 and 18th hour. Actions schedules run at most every 5 minutes.
 name: Auto Api Pro
 
 on: 
@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '10 8,12,18 * * *'
+    - cron: '10 0,4,10 * * *'
   watch:
     types: [started]
    
