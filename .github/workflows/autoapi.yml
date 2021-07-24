@@ -8,9 +8,9 @@ on:
     tags:
     - 'v*'
   #  branches: 
-  #    - master
+  #    - masterhttps://docs.github.com/actions/reference/workflow-syntax-for-github-actions#onschedule
   schedule:
-    - cron: '10 0,4,13 * * *'
+    - cron: '10 0,4,13 * * SUN-FRI'
   watch:
     types: [started]
    
