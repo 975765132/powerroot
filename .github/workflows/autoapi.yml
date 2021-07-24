@@ -1,4 +1,4 @@
-#Runs every 10th minute past the 8, 12 and 18th hour. Actions schedules run at most every 5 minutes.
+#Runs every 10th minute past the xxxxxx hour. Actions schedules run at most every 5 minutes.
 name: Auto Api Pro
 
 on: 
@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '10 0,4,10 * * *'
+    - cron: '10 0,4,13 * * *'
   watch:
     types: [started]
    
