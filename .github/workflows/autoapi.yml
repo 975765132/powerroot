@@ -10,7 +10,8 @@ on:
   #  branches: 
   #    - masterhttps://docs.github.com/actions/reference/workflow-syntax-for-github-actions#onschedule
   schedule:
-    - cron: '10 0,3,6,9,12 * * SUN-FRI'
+    #- cron: '10 0,3,6,9,12 * * SUN-FRI'
+    - cron: '30 6,9,12 * * MON-FRI'
   watch:
     types: [started]
    
